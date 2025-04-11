@@ -1,0 +1,12 @@
+{
+  "name": "speedrun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nicolas-zozol/speedrun.git",
+  "author": "Nicolas Zozol <nzozol@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "status": "./scripts/check-status.sh",
+    "push": "./scripts/commit-all.sh"
+  }
+}

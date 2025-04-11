@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Speedrun project is composed of a Hardhat project for handling smart contract, located at /packages/hardhat directory and a nextjs application located at /packages/nextjs
+
+
+# Your rule content

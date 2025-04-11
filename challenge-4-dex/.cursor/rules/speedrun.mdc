@@ -1,0 +1,28 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Speedrun project is composed of a Hardhat project for handling smart contract, located at /packages/hardhat directory and a nextjs application located at /packages/nextjs
+
+
+# console.log
+
+Whe use hardhat, and we grep "##" to see what's happening
+so we need console.log("##....) to see the message
+
+# Error handling
+
+Don't use require( ) version, but always :
+
+// create errorobject
+
+
+// code
+if( !rule){
+	console.log("## Error because ...." + ..., ...) // adapt message
+	revert errorobject // adapt
+}
+
+
+
